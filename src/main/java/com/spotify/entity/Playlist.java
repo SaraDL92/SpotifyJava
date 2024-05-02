@@ -25,6 +25,18 @@ private List<User>users;
 public Long getIdplaylist() {
 	return idplaylist;
 }
+public List<Song> getSonglist() {
+	return songlist;
+}
+public void setSonglist(List<Song> songlist) {
+	this.songlist = songlist;
+}
+public List<User> getUsers() {
+	return users;
+}
+public void setUsers(List<User> users) {
+	this.users = users;
+}
 public void setIdplaylist(Long idplaylist) {
 	this.idplaylist = idplaylist;
 }

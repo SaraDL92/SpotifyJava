@@ -69,6 +69,12 @@ public class User {
 	public void setLastEditDate(LocalDate lastEditDate) {
 		this.lastEditDate = lastEditDate;
 	}
+	public List<Playlist> getPlaylists() {
+		return playlists;
+	}
+	public void setPlaylists(List<Playlist> playlists) {
+		this.playlists = playlists;
+	}
 
 
 }
